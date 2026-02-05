@@ -1,0 +1,45 @@
+# --- UV / Python Environment ---
+.venv/
+venv/
+
+# --- Vector Databases (ChromaDB) ---
+# Ignore the local database folder where embeddings are stored
+chroma_db/
+chroma_data/
+
+# Ignore SQLite database files (used internally by Chroma)
+*.db
+*.sqlite3
+
+# --- Data & Documents (RAG) ---
+# You typically don't want to commit the PDFs/Text files you are indexing
+data/
+docs/
+*.pdf
+*.txt
+*.md
+
+# --- Standard Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# --- Variables & Secrets ---
+.env
+.env.local
+
+# --- Unit Test / Coverage ---
+.coverage
+htmlcov/
+.pytest_cache/
+
+# --- IDEs ---
+.vscode/
+.idea/
+.DS_Store
