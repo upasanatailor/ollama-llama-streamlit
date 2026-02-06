@@ -39,7 +39,3 @@ build/
 htmlcov/
 .pytest_cache/
 
-# --- IDEs ---
-.vscode/
-.idea/
-.DS_Store
