@@ -60,6 +60,7 @@ streamlit run streamlit.py
 
 ```
 
+```text
 Open your browser at http://localhost:8501.
 
 ├── streamlit.py         # Main Streamlit application
