@@ -69,6 +69,8 @@ Open your browser at http://localhost:8501.
 ├── README.md           # This file
 └── data/               # Images/Screenshots/pdf file
 
+```
+
 
 📦 Requirements.txt Content
 
