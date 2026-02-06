@@ -51,12 +51,14 @@ pip install -r requirements.txt
 
 ## Start Ollama (Ensure the Ollama app is running in the background).
 
+```
+
 🏃‍♂️ How to Run streamlit 
 
 ```bash
 streamlit run streamlit.py
 
-
+```
 
 Open your browser at http://localhost:8501.
 
